@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Header styles */
+body{
+  background-color: white;
+  margin: 60px;
+  font-family:'lato', sans-serif; 
+  color:#707070;
+
+}
+
+.container{
+  display: flex;
+  margin:0;
+  justify-content:space-between;
+  align-content:center;
+}
+
+
+
+  .girllogo{
+    width: 60%;
+    margin-left: -20px;
+  }
+
+
+.navcontent{
+  list-style-type: none;
+  margin:0%;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-top: 65px;
+}
+
+.navcontent li:nth-child(1) a{
+  color:#707070;
+  padding-right: 60px;
+  padding-top: 100px;
+
+}
+
+.navcontent li:nth-child(2) a{
+  color:#BC5D81;
+  padding-right: 60px;
+  padding-top: 100px;
+}
+
+.navcontent li:nth-child(3) a{
+  color:#707070;
+  padding-right: 60px;
+  padding-top: 100px;
+}
+
+.navcontent li:nth-child(4) a{
+  color:#707070;
+  padding-top: 100px;
+
+}
+
+
+
+/* section styles */
+.seperator{
+  
+    box-sizing: border-box;
+    align-content:stretch;
+    margin-top:60px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .headingabout{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: questa-grande, serif;
+    font-weight: 700;
+    font-style: normal;
+  }
